@@ -5,7 +5,7 @@ function Filter({ filterData }) {
     <div>
       {filterData.map((data) => {
         return (
-          <button>
+          <button key={data.id}>
             {data.title}
           </button>
         )
