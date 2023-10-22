@@ -3,7 +3,7 @@ import React from 'react'
 function Support() {
   return (
     <div>
-      Support Page
+      This is a Support Page
     </div>
   )
 }
